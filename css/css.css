@@ -1,0 +1,92 @@
+*{
+margin: 0 ;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+width: 100%;
+min-height: 100%;
+overflow-x: hidden;
+background: black;
+}
+h1{
+    margin: 10px;
+}
+h2{
+    margin: 10px;
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#video-fundo {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 100vw;
+height: 100vh;
+transform: translate(-50%, -50%);
+border: none;
+z-index: -2;
+pointer-events: none;
+}
+
+.conteudo {
+position: relative;
+z-index: 1;
+min-height: 100vh;
+color: white;
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.hr1{
+    width: 900px;
+}
+.ajuste{
+    margin: 30px;
+    display: flex;
+    gap: 4px;
+}
+.ajuste2{
+    margin: 10px;
+}
+.img-4{
+    border-right: 1px solid white ;
+    padding-right: 4px;
+}
+td{
+    border: 0.5px solid white;
+    position: relative;
+}
+.texto-img{
+    position: absolute;
+    left:28px;
+    top: 0px;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+.num-img{
+    position: absolute;
+    left:30px;
+    bottom: 5px;
+    width: 100px;
+    text-align: right;
+}
+.logo1 {
+max-width: 750px;
+margin-bottom: 20px;
+}
